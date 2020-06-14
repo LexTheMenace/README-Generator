@@ -40,9 +40,9 @@ const questions = [  {
  name: "lice",
  message: "What is your license?",
  choices: [
-    "This",
-    "Wow",
-    "hey"
+    "MIT",
+    "Apache",
+    "Mozilla"
  ]
 },
 {
