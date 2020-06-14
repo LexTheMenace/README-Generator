@@ -40,9 +40,9 @@ const questions = [  {
  name: "lice",
  message: "What is your license?",
  choices: [
-    "This",
-    "Wow",
-    "hey"
+    "MIT",
+    "Apache",
+    "Mozilla"
  ]
 },
 {
@@ -64,17 +64,14 @@ function ask(){
 
 // function to write README file
 async function writeToFile(data) {
- await writeFileAsync("READMER.md", data);
-    console.log("Success! README Generated!");
+ await writeFileAsync("READMER.md", data);   
 }
 
 // function to initialize program
 async function init() {
 try{
     const answer = await ask();
-    const data = mark.generateMarkdown(answer);
-    console.log(data);
-    
+    const data = mark.generateMarkdown(answer); 
    writeToFile(data)
 }catch (err) {
     console.log(err);    
