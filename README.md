@@ -14,12 +14,14 @@ A CLI app that creates a prefessional README.
 ## Installation
 ***
 Download, open folder in node, run npm install  
+## Images
+![Readme Generator](link)
 ## Usage
 ***
 Run index.js in terminal and answer the prompts to generate a README. 
 ## License
 ***
-hey
+
 ## Contributing
 ***
 LexTheMenace
